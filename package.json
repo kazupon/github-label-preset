@@ -1,0 +1,25 @@
+{
+  "name": "@kazupon/github-label-preset",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazupon/github-label-preset.git"
+  },
+  "author": {
+    "name": "kazuya kawaguchi",
+    "email": "kawakazu80@gmail.com"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kazupon/github-label-preset/issues"
+  },
+  "homepage": "https://github.com/kazupon/github-label-preset#readme"
+}
