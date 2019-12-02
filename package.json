@@ -1,7 +1,7 @@
 {
   "name": "@kazupon/github-label-preset",
   "description": "GitHub label preset for github-label-setup",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "kazuya kawaguchi",
     "email": "kawakazu80@gmail.com"
