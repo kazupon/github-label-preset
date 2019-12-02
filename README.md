@@ -1,6 +1,6 @@
 # :octopus: @kazupon/github-label-preset
 
-GitHub label preset for @azu/github-label-setup
+GitHub label preset for [github-label-setup](https://github.com/azu/github-label-setup)
 
 ## :copyright: License
 
