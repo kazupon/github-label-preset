@@ -1,6 +1,6 @@
 {
   "name": "@kazupon/github-label-preset",
-  "description": "GitHub label preset for @azu/github-label-setup",
+  "description": "GitHub label preset for github-label-setup",
   "version": "0.0.1",
   "author": {
     "name": "kazuya kawaguchi",
@@ -16,6 +16,9 @@
   "engines": {
     "node": ">= 8"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://github.com/kazupon/github-label-preset#readme",
   "license": "MIT",
   "main": "label.json",
@@ -23,6 +26,14 @@
     "type": "git",
     "url": "git+https://github.com/kazupon/github-label-preset.git"
   },
+  "files": [
+    "label.json"
+  ],
+  "keywords": [
+    "github",
+    "label",
+    "github-label-setup"
+  ],
   "scripts": {
     "release:prepare": "shipjs prepare",
     "release:trigger": "shipjs trigger",
