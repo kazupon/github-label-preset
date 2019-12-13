@@ -34,7 +34,6 @@ async function commitChangelog (current, next) {
 module.exports = {
   mergeStrategy: { toSameBranch: ["master"] },
   testCommandBeforeRelease: () => null,
-  buildCommand: () => null,
   updateChangelog: false,
   beforeCommitChanges: ({ nextVersion, exec, dir }) => {
     return new Promise(resolve => {

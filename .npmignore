@@ -1,5 +1,6 @@
 .*
 *.log
 *.swp
+dist/.gitkeep
 coverage
 test
