@@ -1,0 +1,99 @@
+[
+  {
+    "name": "todo",
+    "color": "c2e0c6"
+  },
+  {
+    "name": "duplicate",
+    "color": "ededed",
+    "description": "This issue or Pull Request already exists"
+  },
+  {
+    "name": "help wanted",
+    "color": "e99695",
+    "description": "Extra attention is needed"
+  },
+  {
+    "name": "good first issue",
+    "color": "7057ff",
+    "description": "Good for newcomers",
+    "aliases": [
+      "beginner-friendly",
+      "beginner",
+      "good-starter-issue",
+      "good for beginner",
+      "Good for beginners",
+      "starter-issue",
+      "starter"
+    ]
+  },
+  {
+    "name": "Priority: Critical",
+    "color": "ee0701"
+  },
+  {
+    "name": "Priority: High",
+    "color": "d93f0b"
+  },
+  {
+    "name": "Priority: Medium",
+    "color": "fbca04"
+  },
+  {
+    "name": "Priority: Low",
+    "color": "0e8a16"
+  },
+  {
+    "name": "Status: Abandoned",
+    "color": "000000",
+    "description": "The issue or Pull Request is wontfix",
+    "aliases": [
+      "wontfix",
+      "invalid"
+    ]
+  },
+  {
+    "name": "Status: Blocked",
+    "color": "ee0701",
+    "description": "Progress on the issue is Blocked",
+    "aliases": [
+      "blocked"
+    ]
+  },
+  {
+    "name": "Status: In Progress",
+    "description": "Work in Progress",
+    "color": "cccccc"
+  },
+  {
+    "name": "Status: Proposal",
+    "color": "d4c5f9",
+    "description": "Request for comments",
+    "aliases": [
+      "idea",
+      "Idea",
+      "proposal",
+      "Proposal",
+      "discussion"
+    ]
+  },
+  {
+    "name": "Status: PR Welcome",
+    "color": "2E7733",
+    "description": "Welcome to Pull Request",
+    "aliases": [
+      "Patch Welcome",
+      "Status: Ready for PR"
+    ]
+  },
+  {
+    "name": "Status: Review Needed",
+    "color": "fbca04",
+    "description": "Request for review comments"
+  },
+  {
+    "name": "Status: Need More Info",
+    "color": "F9C90A",
+    "description": "Lacks enough info to make progress"
+  }
+]
