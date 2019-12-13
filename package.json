@@ -11,23 +11,24 @@
   },
   "devDependencies": {
     "lerna-changelog": "^0.8.3",
+    "lerna-changelog-label-schema": "^3.0.0",
     "shipjs": "^0.11.1"
   },
   "engines": {
-    "node": ">= 8"
+    "node": ">= 10"
   },
   "publishConfig": {
     "access": "public"
   },
   "homepage": "https://github.com/kazupon/github-label-preset#readme",
   "license": "MIT",
-  "main": "label.json",
+  "main": "dist/default.json",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kazupon/github-label-preset.git"
   },
   "files": [
-    "label.json"
+    "dist"
   ],
   "keywords": [
     "github",
@@ -35,6 +36,10 @@
     "github-label-setup"
   ],
   "scripts": {
+    "clean": "rm -rf ./dist/*.json",
+    "build:default": "lerna-changelog-label-schema generate | node ./scripts/build.js > ./dist/default.json",
+    "build:full": "lerna-changelog-label-schema generate -p=full | node ./scripts/build.js > ./dist/full.json",
+    "build": "npm run build:default && npm run build:full",
     "release:prepare": "shipjs prepare",
     "release:trigger": "shipjs trigger",
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,10 +1,16 @@
 [
   {
+    "name": "todo",
+    "color": "c2e0c6"
+  },
+  {
     "name": "duplicate",
+    "color": "ededed",
     "description": "This issue or Pull Request already exists"
   },
   {
     "name": "help wanted",
+    "color": "e99695",
     "description": "Extra attention is needed"
   },
   {
@@ -22,13 +28,16 @@
     ]
   },
   {
-    "name": "Priority: Critical"
+    "name": "Priority: Critical",
+    "color": "ee0701"
   },
   {
-    "name": "Priority: High"
+    "name": "Priority: High",
+    "color": "d93f0b"
   },
   {
-    "name": "Priority: Medium"
+    "name": "Priority: Medium",
+    "color": "fbca04"
   },
   {
     "name": "Priority: Low",
@@ -86,56 +95,5 @@
     "name": "Status: Need More Info",
     "color": "F9C90A",
     "description": "Lacks enough info to make progress"
-  },
-  {
-    "name": "Type: Breaking",
-    "color": "b60205",
-    "description": "Includes breaking changes",
-    "aliases": [
-      "breaking",
-      "breaking-change"
-    ]
-  },
-  {
-    "name": "Type: Bug",
-    "color": "ee0701",
-    "description": "Bug or Bug fixes",
-    "aliases": [
-      "bug"
-    ]
-  },
-  {
-    "name": "Type: Documentation",
-    "color": "5319e7",
-    "description": "Documentation only changes",
-    "aliases": [
-      "documents",
-      "document"
-    ]
-  },
-  {
-    "name": "Type: Feature",
-    "color": "1d76db",
-    "description": "New Feature",
-    "aliases": [
-      "enhancement"
-    ]
-  },
-  {
-    "name": "Type: Refactoring",
-    "color": "fbca04",
-    "description": "A code change that neither fixes a bug nor adds a feature",
-    "aliases": [
-      "refactor"
-    ]
-  },
-  {
-    "name": "Type: Testing",
-    "color": "257759",
-    "description": "Adding missing tests or correcting existing tests",
-    "aliases": [
-      "test",
-      "testing"
-    ]
   }
 ]
