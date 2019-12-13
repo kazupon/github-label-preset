@@ -1,4 +1,13 @@
 
+## v1.0.1 (2019-12-13)
+
+#### :zap: Improvement Feature
+* [#13](https://github.com/kazupon/github-label-preset/pull/13) tweak configration ([@kazupon](https://github.com/kazupon))
+
+#### Committers: 1
+- kazuya kawaguchi ([@kazupon](https://github.com/kazupon))
+
+
 ## v1.0.0 (2019-12-13)
 
 #### :star: Features
