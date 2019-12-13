@@ -39,7 +39,7 @@
     "clean": "rm -rf ./dist/*.json",
     "build:default": "lerna-changelog-label-schema generate | node ./scripts/build.js > ./dist/default.json",
     "build:full": "lerna-changelog-label-schema generate -p=full | node ./scripts/build.js > ./dist/full.json",
-    "build": "npm run build:default && npm run build:full",
+    "build": "npm run clean && npm run build:default && npm run build:full",
     "release:prepare": "shipjs prepare",
     "release:trigger": "shipjs trigger",
     "test": "echo \"Error: no test specified\" && exit 1"
