@@ -10,7 +10,7 @@
     "url": "https://github.com/kazupon/github-label-preset/issues"
   },
   "devDependencies": {
-    "lerna-changelog": "^0.8.3",
+    "lerna-changelog": "^1.0.0",
     "lerna-changelog-label-schema": "^3.0.0",
     "shipjs": "^0.11.1"
   },
