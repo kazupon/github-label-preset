@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/kazupon/github-label-preset#readme",
   "license": "MIT",
-  "main": "dist/default.json",
+  "main": "dist/full.json",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kazupon/github-label-preset.git"
