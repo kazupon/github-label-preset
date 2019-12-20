@@ -9,41 +9,6 @@
   "bugs": {
     "url": "https://github.com/kazupon/github-label-preset/issues"
   },
-  "devDependencies": {
-    "lerna-changelog": "^1.0.0",
-    "lerna-changelog-label-schema": "^3.0.0",
-    "shipjs": "^0.11.1"
-  },
-  "engines": {
-    "node": ">= 10"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "homepage": "https://github.com/kazupon/github-label-preset#readme",
-  "license": "MIT",
-  "main": "dist/full.json",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kazupon/github-label-preset.git"
-  },
-  "files": [
-    "dist"
-  ],
-  "keywords": [
-    "github",
-    "label",
-    "github-label-setup"
-  ],
-  "scripts": {
-    "clean": "rm -rf ./dist/*.json",
-    "build:default": "lerna-changelog-label-schema generate | node ./scripts/build.js > ./dist/default.json",
-    "build:full": "lerna-changelog-label-schema generate -p=full | node ./scripts/build.js > ./dist/full.json",
-    "build": "npm run clean && npm run build:default && npm run build:full",
-    "release:prepare": "shipjs prepare",
-    "release:trigger": "shipjs trigger",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "changelog": {
     "labels": {
       "Type: Feature": ":star: Features",
@@ -59,5 +24,40 @@
       "Type: Testing": ":white_check_mark: Testing",
       "Type: Documentation": ":pencil: Documentation"
     }
+  },
+  "devDependencies": {
+    "lerna-changelog": "^1.0.0",
+    "lerna-changelog-label-schema": "^3.0.0",
+    "shipjs": "^0.11.1"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/kazupon/github-label-preset#readme",
+  "keywords": [
+    "github",
+    "github-label-setup",
+    "label"
+  ],
+  "license": "MIT",
+  "main": "dist/full.json",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazupon/github-label-preset.git"
+  },
+  "scripts": {
+    "build": "npm run clean && npm run build:default && npm run build:full",
+    "build:default": "lerna-changelog-label-schema generate | node ./scripts/build.js > ./dist/default.json",
+    "build:full": "lerna-changelog-label-schema generate -p=full | node ./scripts/build.js > ./dist/full.json",
+    "clean": "rm -rf ./dist/*.json",
+    "release:prepare": "shipjs prepare",
+    "release:trigger": "shipjs trigger",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
