@@ -28,7 +28,7 @@
   "devDependencies": {
     "lerna-changelog": "^1.0.0",
     "lerna-changelog-label-schema": "^3.0.0",
-    "shipjs": "^0.13.0"
+    "shipjs": "^0.20.0"
   },
   "engines": {
     "node": ">= 10"
