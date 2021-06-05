@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "lerna-changelog": "^1.0.0",
-    "lerna-changelog-label-schema": "^3.0.0",
+    "lerna-changelog-label-schema": "^4.0.0",
     "shipjs": "^0.23.0"
   },
   "engines": {
