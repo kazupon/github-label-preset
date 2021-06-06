@@ -1,4 +1,13 @@
 
+## v3.0.0 (2021-06-06)
+
+#### :boom: Breaking Change
+* [#32](https://github.com/kazupon/github-label-preset/pull/32) drop node v10 ([@kazupon](https://github.com/kazupon))
+
+#### Committers: 1
+- kazuya kawaguchi ([@kazupon](https://github.com/kazupon))
+
+
 
 
 ## v1.0.1 (2019-12-13)
