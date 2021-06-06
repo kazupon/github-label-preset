@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-const schema = require('../schema.json')
+import schema from '../schema.json'
 
-const chunks = []
+const chunks: any = []
 process.stdin.resume()
 process.stdin.setEncoding('utf8')
 

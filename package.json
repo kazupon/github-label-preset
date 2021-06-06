@@ -26,9 +26,12 @@
     }
   },
   "devDependencies": {
+    "@types/node": "^15.12.1",
+    "esbuild-register": "^2.5.0",
     "lerna-changelog": "^1.0.0",
     "lerna-changelog-label-schema": "^4.0.0",
-    "shipjs": "^0.23.0"
+    "shipjs": "^0.23.0",
+    "typescript": "^4.3.2"
   },
   "engines": {
     "node": ">= 12"
@@ -53,8 +56,8 @@
   },
   "scripts": {
     "build": "npm run clean && npm run build:default && npm run build:full",
-    "build:default": "lerna-changelog-label-schema generate | node ./scripts/build.js > ./dist/default.json",
-    "build:full": "lerna-changelog-label-schema generate -p=full | node ./scripts/build.js > ./dist/full.json",
+    "build:default": "lerna-changelog-label-schema generate | node -r esbuild-register ./scripts/build.ts > ./dist/default.json",
+    "build:full": "lerna-changelog-label-schema generate -p=full | node -r esbuild-register ./scripts/build.ts > ./dist/full.json",
     "clean": "rm -rf ./dist/*.json",
     "release:prepare": "shipjs prepare",
     "release:trigger": "shipjs trigger",
